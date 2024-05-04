@@ -9,7 +9,7 @@ Clone into your machine and get into the root folder:
     $git clone https://github.com/oduortoni/genai.git
     $cd genai
 
-Navigate to https://aistudio.google.com/ to get an API key. Save your api key into a new file under the name ".env". inside it, save the api key as shown:
+Navigate to https://aistudio.google.com/ to generate an API key (ensure that you are signed into your google acount to be able to access this). Save your api key into a new file under the name ".env". inside it, save the api key as shown:
 
     GENAI_KAPI_KEY=<YOUR_API_KEY>
 
