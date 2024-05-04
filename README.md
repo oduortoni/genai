@@ -9,6 +9,10 @@ Clone into your machine and get into the root folder:
     $git clone https://github.com/oduortoni/genai.git
     $cd genai
 
+Navigate to https://aistudio.google.com/ to get an API key. Save your api key into a new file under the name ".env". inside it, save the api key as shown:
+
+    GENAI_KAPI_KEY=<YOUR_API_KEY>
+
 Run the project and be patient. It takes a while to get back the results:
 
     $python app.py
